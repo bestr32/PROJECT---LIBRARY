@@ -1,0 +1,136 @@
+#container{
+    margin: 70px auto;
+    width: 1380px;
+}
+
+#gridcontainer{
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+    padding: 10px;
+    grid-gap: 15px 3px;
+    justify-items: center;
+    align-items: center;
+}
+.cards{
+    border: 3px solid black;
+    width: 400px;
+    height: 111px;
+    padding: 20px;
+    background-color: lightskyblue;
+    box-shadow: 0px 8px 0px blue;
+    white-space: pre;
+    font-size: 20px;
+    text-align: center;
+}
+
+.newbook{
+    width: 400px;
+    height: 111px;
+    font-size: 20px;
+    margin: 0 auto;
+    border: 3px solid black;
+    box-shadow: 0px 8px 0px blue;
+    padding: 20px;
+    display: block;
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+#newBookButton{
+    padding: 8px;
+    background-color: greenyellow;
+    outline: none;
+    border: 1px solid black;
+    cursor: pointer;
+    margin: 0 auto;
+    width: 392px;
+}
+
+#addFormDiv{
+    width: 400px;
+    height: 111px;
+    padding: 20px;
+    border: 3px solid transparent;
+    box-shadow: 0px 8px 0px transparent;
+}
+
+.textInput{
+    width: 320px;
+}
+
+#author{
+    margin-left: 0px;
+}
+
+#pages{
+    margin-left: 10px;
+}
+
+#title{
+    margin-left: 13px;
+}
+
+#read{
+    margin-left: 13px;
+}
+
+.readbutton{
+    position: relative;
+    background-color: greenyellow;
+    padding: 5px;
+    border: 1px solid black;
+    box-shadow: 0px 2px 0px green;
+    cursor: pointer;
+    transition: .2s;
+    margin-top: 15px;
+}
+
+.readButton:hover{
+    box-shadow: none;
+    top: 2px;
+    background-color: red;
+    transition: .2s;
+}
+
+.readButton:active{
+    box-shadow: none;
+    top: 2px;
+    background-color: red;
+}
+
+.removebutton{
+    position: relative;
+    background-color: orangered;
+    padding: 5px;
+    border: 1px solid black;
+    box-shadow: 0px 2px 0px red;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.addForm{
+    padding: 20px;
+    width: 100px;
+    background-color: lightskyblue;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    font-size: 50px;
+    outline: none;
+    cursor: pointer;
+    color: darkslategrey;
+    border: 2px solid grey;
+    transition: .1s;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+.addForm:hover{
+    color: black;
+    border: 2px solid dimgrey;
+}
+
+.addForm:active{
+    border: 2px solid black;
+    color: black;
+    transition: .2s;
+}
